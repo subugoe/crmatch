@@ -1,0 +1,23 @@
+Package: crmatch
+Type: Package
+Title: Match references to DOIs using the Crossref search 
+Version: 0.1.0
+Authors@R: c(
+    person("Najko", "Jahn", role = c("aut", "cre"), email = "najko.jahn@gmail.com"))
+Description: Client for matching references to DOIs using Crossref 
+    Metadata Search fuzzy matching. It complements rcrossref search functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr,
+    jsonlite,
+    dplyr
+Suggests:
+    roxygen2 (>= 5.0.1),
+    testthat,
+    knitr,
+    covr,
+    rmarkdown
+RoxygenNote: 5.0.1
+VignetteBuilder: knitr
